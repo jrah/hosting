@@ -42,40 +42,9 @@ export default {
 </script>
 
 <style scoped>
-.content {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Noto Sans KR', sans-serif;
+/* Sample `apply` at-rules with Tailwind CSS
+.container {
+  @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
-span {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  color: #22a266;
-}
-h1 {
-  font-size: 35px;
-}
-table {
-  border: 0.5px solid #d3e5dc;
-  border-collapse: collapse;
-  width: 1020px;
-  margin-top: 20px;
-  text-align: center;
-}
-tr:first-child {
-  font-family: 'Roboto', sans-serif;
-  background-color: #22a266;
-  color: white;
-}
-tr:last-child td {
-  padding: 30px;
-}
-td {
-  width: 33%;
-  border: 0.5px solid #d3e5dc;
-  padding: 15px;
-}
+*/
 </style>
