@@ -42,25 +42,16 @@ export default {
 </script>
 
 <style scoped>
-/* @font-face {
-  font-family: NotoSansKR;
-  src: url('~/assets/fonts/NotoSansKR-Light.otf');
-}
-@font-face {
-  font-family: Roboto;
-  src: url('~/assets/Roboto-Medium.ttf');
-} */
-
 .content {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* font-family: NotoSansKR; */
+  font-family: 'Noto Sans KR', sans-serif;
 }
 span {
-  /* font-family: Roboto; */
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #22a266;
 }
@@ -75,12 +66,9 @@ table {
   text-align: center;
 }
 tr:first-child {
-  /* font-family: Roboto; */
+  font-family: 'Roboto', sans-serif;
   background-color: #22a266;
   color: white;
-}
-tr:last-child {
-  font-weight: bold;
 }
 tr:last-child td {
   padding: 30px;
