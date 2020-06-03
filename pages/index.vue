@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <Menu />
       <h1 class="title">
         hosting
       </h1>
@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Menu from '~/components/Menu.vue'
 
 export default {
   components: {
-    Logo
+    Menu
   }
 }
 </script>
