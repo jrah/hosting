@@ -1,16 +1,28 @@
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <Menu />
-    <div class="content">
-      <span>{{ title }}</span>
-      <h1>{{ bigTitle }}</h1>
-      <p>{{ description }}</p>
-      <table>
-        <tr>
-          <td v-for="type in types" :key="type">{{ type }}</td>
+    <div class="content mt-6 flex font-sans flex-col items-center">
+      <span class="text-primaryColor text-sm">{{ title }}</span>
+      <h1 class="text-4xl">{{ bigTitle }}</h1>
+      <p class="mt-3 text-gray text-center lg:w-3/5">{{ description }}</p>
+      <table class="mt-5 text-center border border-borderColor lg:w-full">
+        <tr class="text-white bg-primaryColor">
+          <td
+            v-for="type in types"
+            :key="type"
+            class="p-4 w-2/6  border border-borderColor"
+          >
+            {{ type }}
+          </td>
         </tr>
         <tr>
-          <td v-for="plan in plans" :key="plan">{{ plan }}</td>
+          <td
+            v-for="plan in plans"
+            :key="plan"
+            class="p-6  border border-borderColor"
+          >
+            {{ plan }}
+          </td>
         </tr>
       </table>
     </div>

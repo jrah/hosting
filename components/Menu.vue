@@ -1,10 +1,8 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+  <nav class="flex items-center justify-between flex-wrap bg-primaryColor p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <svg
-        class="fill-current h-8 w-8 mr-2"
-        width="54"
-        height="54"
+        class="fill-current h-8 w-8 mr-2 .w-12 .h-12"
         viewBox="0 0 54 54"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -52,7 +50,7 @@
       <div>
         <a
           href="#"
-          class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+          class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-black mt-4 lg:mt-0"
           >Download</a
         >
       </div>

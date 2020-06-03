@@ -1,11 +1,13 @@
-/*
-** TailwindCSS Configuration File
-**
-** Docs: https://tailwindcss.com/docs/configuration
-** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-*/
 module.exports = {
-  theme: {},
+  theme: {
+    colors: {
+      primaryColor: '#22a266',
+      borderColor: '#d3e5dc',
+      white: '#fff',
+      gray: '#777',
+      black: '#000'
+    }
+  },
   variants: {},
   plugins: []
 }
